@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T21:31:26.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="xEoFjcCENEeDAZ5axXYD" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T21:34:42.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="0bhsMC-iCGwpij3Q5QQ6" version="21.2.1" type="github">
   <diagram name="Página-1" id="pSOZWiFcLK-jRT-I9Wxa">
     <mxGraphModel dx="823" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
           <mxGeometry y="86" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kc0MogDfmRI-tjZ8E_rs-9" value="Doctor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="340" y="200" width="160" height="116" as="geometry" />
+          <mxGeometry x="340" y="200" width="160" height="146" as="geometry" />
         </mxCell>
         <mxCell id="Kc0MogDfmRI-tjZ8E_rs-10" value="DoctorId: int &lt;b&gt;PK&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Kc0MogDfmRI-tjZ8E_rs-9" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="Kc0MogDfmRI-tjZ8E_rs-12" value="Estudios: string" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="Kc0MogDfmRI-tjZ8E_rs-9" vertex="1">
           <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZkZtLI4cQMyui6_1O6a-42" value="PersonaId: int &lt;b&gt;FK&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Kc0MogDfmRI-tjZ8E_rs-9">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kc0MogDfmRI-tjZ8E_rs-29" value="DoctorEspecializacion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="350" y="40" width="160" height="116" as="geometry" />
